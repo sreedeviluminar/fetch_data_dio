@@ -38,7 +38,7 @@ class HomeController extends GetxController {
   /// Scroll Listview To Down
   scrollListViewDownward() {
     itemController.scrollTo(
-        index: posts.length - 4,
+        index: posts.length - 5,
         duration: const Duration(seconds: 2),
         curve: Curves.fastOutSlowIn);
     isListViewScrollToTheDown.value = true;
